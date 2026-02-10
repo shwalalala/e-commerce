@@ -1,0 +1,91 @@
+       body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: whitesmoke;
+
+        }
+
+        /* Navbar */
+        .sidebar {
+            width: 220px;
+            background-color: #ffffff;
+            color: white;
+            height: 95vh;
+            padding: 20px;
+        }
+
+        .sidebar .brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+
+        .sidebar .brand h2 {
+            margin: 0;
+            color: #000066;
+        }
+
+        .sidebar .logo {
+            width: 48px;
+            height: 48px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .sidebar button {
+            text-align: left;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            background-color: #000066;
+            color: white;
+            cursor: pointer;
+        }
+
+        .sidebar button:hover {
+            background-color: #666;
+        }
+
+        /* Main content */
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .content h1 {
+            color: #000066;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product img {
+            width: 100%;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .product h4 {
+            margin: 10px 0 5px;
+        }
+
+        .product p {
+            color: #000066;
+        }
